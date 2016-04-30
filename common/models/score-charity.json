@@ -13,13 +13,10 @@
     "good_governance": {
       "type": "number"
     },
-    "max_limit": {
-      "type": "number"
-    },
-    "scoreid": {
-      "type": "number"
-    },
     "summary": {
+      "type": "number"
+    },
+    "max_limit": {
       "type": "number"
     }
   },
