@@ -1,0 +1,24 @@
+{
+  "name": "bank_account",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "account_number": {
+      "type": "number"
+    },
+    "bank": {
+      "type": "bank_account"
+    },
+    "bank_account_id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

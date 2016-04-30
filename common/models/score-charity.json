@@ -1,0 +1,30 @@
+{
+  "name": "score_charity",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "financial": {
+      "type": "number"
+    },
+    "good_governance": {
+      "type": "number"
+    },
+    "max_limit": {
+      "type": "number"
+    },
+    "scoreid": {
+      "type": "number"
+    },
+    "summary": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

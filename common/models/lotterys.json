@@ -1,0 +1,32 @@
+{
+  "name": "lotterys",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "lotteryid": {
+      "type": "number",
+      "id": true
+    },
+    "lotteryNumber": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "userid": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "charity",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "charityid": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "charityname": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "score": {
+      "type": "score_charity"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
