@@ -1,4 +1,13 @@
 {
+  "mysql": {
+    "host": "novicecode.in.th",
+    "port": 3306,
+    "database": "novice_hopeorize",
+    "password": "ODiQ8LuLQ",
+    "name": "mysql",
+    "user": "novice_hopeorize",
+    "connector": "mysql"
+  },
   "db": {
     "name": "db",
     "connector": "memory"

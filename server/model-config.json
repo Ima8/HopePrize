@@ -33,37 +33,37 @@
     "public": false
   },
   "lotterys": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "client": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "charity": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "score_charity": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "bank_account": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "bank": {
-    "dataSource": "db",
+    "dataSource": null,
     "public": true,
     "$promise": {},
     "$resolved": true
